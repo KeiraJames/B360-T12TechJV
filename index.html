@@ -88,28 +88,35 @@
   </section>
 
 
-  <section id="contact">
-    <div class="container">
+  <!-- START: Replace your old contact section with this -->
+<section id="contact">
+  <div class="container">
+    <div class="card">
       <h2>Contact Us</h2>
-      <div class="card">
-        <form id="contactForm">
-          <input type="text" name="name" required placeholder="Full name">
-          <input type="email" name="email" required placeholder="Work email">
-          <input type="text" name="company" placeholder="Company">
-          <textarea name="message" required placeholder="Your message"></textarea>
-          <button type="submit" class="btn">Submit</button>
-        </form>
-        <div id="formMessage" style="display:none;color:green;margin-top:1rem;">
-          Thanks! Your message has been received.
+      <div class="static-form">
+        <div class="form-group">
+          <label for="email">Email</label>
+          <div class="static-input" id="email">
+            <a href="mailto:TChance@T12-Tech.com">TChance@T12-Tech.com</a>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone</label>
+          <div class="static-input" id="phone">
+            <a href="tel:+13016329613">+1 (301) 632-9613</a>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="address">Address</label>
+          <div class="static-input" id="address">
+            123 JV Way, Suite 100, Washington, DC 20001
+          </div>
         </div>
       </div>
-      <div class="card">
-        <p>Email: <a href="mailto:TChance@T12-Tech.com">TChance@T12-Tech.com</a></p>
-        <p>Phone: <a href="tel:+3016329613">+1 (301) 632-9613</a></p>
-        <p>Address: 123 JV Way, Suite 100, Washington, DC 20001</p>
-      </div>
     </div>
-  </section>
+  </div>
+</section>
+<!-- END: New contact section -->
 
   <!-- Footer -->
   <footer>
