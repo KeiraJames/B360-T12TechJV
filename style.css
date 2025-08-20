@@ -202,7 +202,7 @@ header nav a:hover::after { width: 100%; }
 }
 
 .static-input a {
-  color: var(--accent-red);
+  color:  var(--dark-gray);
   font-weight: 600;
   text-decoration: none;
   transition: color 0.3s ease;
